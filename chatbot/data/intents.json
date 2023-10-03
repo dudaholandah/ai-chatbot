@@ -1,0 +1,53 @@
+{
+  "intents": 
+  [ 
+    {"tag": "greetings",
+     "patterns": ["hello", "hey", "hi", "what's up", "how are you"],
+     "responses": ["Hello!", "Hey!", "How can I help you?"]
+    },
+    {"tag": "farewell",
+     "patterns": ["bye", "see you", "thanks for your help", "cya"],
+     "responses": ["If you want to ask something else I'm here :)"]
+    },
+    {"tag": "character",
+     "patterns": ["Who is", "Tell me who is", "Can you tell me who is from"],
+     "responses": ["tag:characters"]
+    },
+    {"tag": "thank you",
+     "patterns": ["thanks", "thank you"],
+     "responses": ["You are welcome!", "Can I help with something else?", "I'm here for anything!"]
+    },
+    {"tag": "name",
+     "patterns": ["what's your name", "how should i call you", "who are you", "what is your name"],
+     "responses": ["I'm AnIme bot! I can tell you about animes :)", "Call me AnIme bot!", "My name is AnIme bot! Ask me about animes."]
+    },
+    {"tag": "questions",
+     "patterns": ["what kind of questions can I ask you?", "What can I ask you?", "What can you do?", "what can you answer?"],
+     "responses": ["Ask me about characters, anime synopsis, anime genre, an anime of this season, recommendations and the best current anime."]
+    },
+    {"tag": "anime",
+     "patterns": ["Tell me about", "What is about", "Tell me the synopsis of"],
+     "responses": ["tag:anime"]
+    },
+    {"tag": "anime-genre",
+     "patterns": ["tell me about the genre", "what's the genre of"],
+     "responses": ["tag:genres"]
+    },
+    {"tag": "recommendation",
+     "patterns": ["what anime should I watch?", "can you recommend me an anime?", "I've just finished watching"],
+     "responses": ["tag:recommendations"]
+    },
+    {"tag": "season",
+     "patterns": ["tell me an anime of the season", "any new animes this season?"],
+     "responses": ["tag:season"]
+    },
+    {"tag": "top-anime",
+     "patterns": ["what's the best anime right now?", "what's the rank 1 anime right now?", "what is the best current anime?", "best anime", "top anime"],
+     "responses": ["tag:top"]
+    },
+    {"tag":"similar",
+     "patterns": ["can you suggest a similar anime to", "recommend me an anime similar to", "i want to see an anime similar to", "can i find an anime related to", "i am interested in animes like"],
+     "responses":["tag:similar"]
+    }
+  ]
+}
