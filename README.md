@@ -7,16 +7,19 @@ This Chat Bot App is a web-based application built using Flask, a lightweight we
 ## Running the project
 
 1. Install dependencies
+
 ```
 pip install -r requirements.txt
 ```
 
 2. Train the model
+
 ```
 python ./chatbot/treino_chatbot.py
 ```
 
 3. Run the app
+
 ```
 flask --app app_main run --debug
 ```
